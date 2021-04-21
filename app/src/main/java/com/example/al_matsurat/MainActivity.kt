@@ -11,23 +11,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         card_zipasu.setOnClickListener {
-            val intent = Intent(this, ZipasuActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, ZipasuActivity::class.java))
         }
 
-        card_zisensu.setOnClickListener {
-            val intent = Intent(this, ZisensuActivity::class.java)
-            startActivity(intent)
-        }
-
-        card_zipaku.setOnClickListener {
-            val intent = Intent(this, ZipakuActivity::class.java)
-            startActivity(intent)
-        }
-
-        card_zisenku.setOnClickListener {
-            val intent = Intent(this, ZisenkuActivity::class.java)
-            startActivity(intent)
-        }
     }
 }
