@@ -6,10 +6,16 @@ object DataPagiSughro {
     private val txtPagiSughro = arrayOf(
         "Alhamdulillah",
         "Tabarakallah",
+        "Allahuakbar",
+        "Alhamdulillah",
+        "Tabarakallah",
         "Allahuakbar"
     )
 
     private val txtArabicSughro = arrayOf(
+        "الحمد لله",
+        "تبارك الله",
+        "الله أكبر",
         "الحمد لله",
         "تبارك الله",
         "الله أكبر"
@@ -18,10 +24,16 @@ object DataPagiSughro {
     private val txtLatinSughro = arrayOf(
         "Alhamdulillah",
         "Tabarakallah",
+        "Allahuakbar",
+        "Alhamdulillah",
+        "Tabarakallah",
         "Allahuakbar"
     )
 
     private val txtDescSughro = arrayOf(
+        "Segala Puji Bagi Allah",
+        "Terpujilah Allah",
+        "Allah Maha Besar",
         "Segala Puji Bagi Allah",
         "Terpujilah Allah",
         "Allah Maha Besar"

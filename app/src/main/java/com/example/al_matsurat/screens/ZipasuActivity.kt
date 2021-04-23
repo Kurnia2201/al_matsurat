@@ -14,6 +14,7 @@ class ZipasuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_zipasu)
+        supportActionBar?.title = "Zikir Pagi Sughro"
         rvDzikir = findViewById(R.id.rv_zipasu)
         rvDzikir.setHasFixedSize(true)
         list.addAll(DataPagiSughro.listData)
