@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.al_matsurat.adapter.AdapterPagiSughro
+import com.example.al_matsurat.adapter.ZipasuAdapter
 import com.example.al_matsurat.data.DataPagiSughro
 import com.example.al_matsurat.model.ModelDzikir
 
@@ -23,7 +23,7 @@ class ZipasuActivity : AppCompatActivity() {
 
     private fun showRecylerZipasu() {
         rvDzikir.layoutManager = LinearLayoutManager(this)
-        val linearZipasu = AdapterPagiSughro(list)
+        val linearZipasu = ZipasuAdapter()
         rvDzikir.adapter = linearZipasu
     }
 }

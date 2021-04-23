@@ -3,6 +3,8 @@ package com.example.al_matsurat
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,6 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         card_zipasu.setOnClickListener {
             startActivity(Intent(this, ZipasuActivity::class.java))
+
+            Toast.makeText(this, "Clicked on the Item", Toast.LENGTH_SHORT).show()
         }
 
     }
