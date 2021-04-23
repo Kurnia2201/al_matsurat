@@ -23,7 +23,7 @@ class ZipasuActivity : AppCompatActivity() {
 
     private fun showRecylerZipasu() {
         rvDzikir.layoutManager = LinearLayoutManager(this)
-        val linearZipasu = ZipasuAdapter()
+        val linearZipasu = ZipasuAdapter(list)
         rvDzikir.adapter = linearZipasu
     }
 }

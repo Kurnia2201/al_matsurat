@@ -33,9 +33,10 @@ object DataPagiSughro {
             for (position in txtPagiSughro.indices) {
                 val dzikir = ModelDzikir()
                 dzikir.title = txtPagiSughro[position]
-                dzikir.arabic = txtPagiSughro[position]
-                dzikir.latin = txtPagiSughro[position]
-                dzikir.desc = txtPagiSughro[position]
+                dzikir.arabic = txtArabicSughro[position]
+                dzikir.latin = txtLatinSughro[position]
+                dzikir.desc = txtDescSughro[position]
+                list.add(dzikir)
             }
             return list
         }
