@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         card_zipasu.setOnClickListener {
             startActivity(Intent(this, ZipasuActivity::class.java))
 
-            Toast.makeText(this, "Clicked on the Item", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Zikir Pagi Sughro", Toast.LENGTH_SHORT).show()
         }
 
     }

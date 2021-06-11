@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "238361084300",
+    "project_id": "al-ma-tsurat",
+    "storage_bucket": "al-ma-tsurat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238361084300:android:a8f595c8477240520256a9",
+        "android_client_info": {
+          "package_name": "com.example.al_matsurat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238361084300-60eodug458l0ot5c5a7k6uotb7eaeha3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZiz-cRJE4OoRkiPeBoMbNF7YWzVN-NtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238361084300-60eodug458l0ot5c5a7k6uotb7eaeha3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
