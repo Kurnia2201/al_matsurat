@@ -38,15 +38,15 @@
 
         <TextView
             android:id="@+id/arabicZikir"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:gravity="end"
             android:text="arabic"
             android:textColor="@color/black"
             android:textSize="24sp"
+            android:textDirection="locale"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view" />
 
         <TextView
