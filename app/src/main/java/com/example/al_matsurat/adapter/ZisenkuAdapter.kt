@@ -9,8 +9,8 @@ import com.example.al_matsurat.R
 import com.example.al_matsurat.model.ModelDzikir
 
 
-class ZipasuAdapter(private val zipasuCard: ArrayList<ModelDzikir>) :
-    RecyclerView.Adapter<ZipasuAdapter.ViewHolder>() {
+class ZisenkuAdapter(private val zisenkuCard: ArrayList<ModelDzikir>) :
+    RecyclerView.Adapter<ZisenkuAdapter.ViewHolder>() {
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var textTitle: TextView = itemView.findViewById(R.id.titleZikir)
@@ -27,7 +27,7 @@ class ZipasuAdapter(private val zipasuCard: ArrayList<ModelDzikir>) :
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val dzikir = zipasuCard[position]
+        val dzikir = zisenkuCard[position]
         holder.textTitle.text = dzikir.title
         holder.textArab.text = dzikir.arabic
         holder.textLatin.text = dzikir.latin
@@ -36,7 +36,7 @@ class ZipasuAdapter(private val zipasuCard: ArrayList<ModelDzikir>) :
     }
 
     override fun getItemCount(): Int {
-        return zipasuCard.size
+        return zisenkuCard.size
     }
 
 }

@@ -2,8 +2,9 @@ package com.example.al_matsurat.data
 
 import com.example.al_matsurat.model.ModelDzikir
 
-object DataPagiSughro {
-    private val txtTitlePagiSughro = arrayOf(
+
+object DataSenjaSughro {
+    private val txtTitleSenjaSughro = arrayOf(
         //Demo Title
         "Ta'awudz",
         "QS. Al-Fatihah",
@@ -38,7 +39,7 @@ object DataPagiSughro {
         "Do’a Robithoh"
     )
 
-    private val txtArabicPagiSughro = arrayOf(
+    private val txtArabicSenjaSughro = arrayOf(
         //Demo Ayat
         "أَعُوْذُ بِاللّٰهِ السَّمِيْعِ العَلِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْم",
         "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ\n" +
@@ -52,11 +53,11 @@ object DataPagiSughro {
         " بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ\n" +
                 "قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِۙ * مِنْ شَرِّ مَا خَلَقَۙ * وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ * وَمِنْ شَرِّ النَّفّٰثٰتِ فِى الْعُقَدِۙ * وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَ",
         " بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ\n" +
-                "ْ اَعُوْذُ بِرَبِّ النَّاسِۙ * مَلِكِ النَّاسِۙ * اِلٰهِ النَّاسِۙ * مِنْ شَرِّ الْوَسْوَاسِ ەۙ الْخَنَّاسِۖ * الَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِۙ * مِنَ الْجِنَّةِ وَالنَّاسِ",
-        "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ وَلْحَمْدُ لِلهِ لَا شَرِيْكَ لَهُ لَا إِلَهَ إِلَّاهُوَ وَإِلَيْهِ النُّشُوْرُ.",
-        "أَصْبَحْنَا عَلَى فِطْرَةِ الْإِسْلَامْ وَكَلِمَةِ الْإخْلَاصْ وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّ اللهُ عَلَيْهِ وَسَلَّمَ وَعَلَى مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ حَنِيْفًا وَمَاكَانَ مِنَ الْمُشْرِكِيْنَ.",
-        "أَللَّهُمَّ إِنِّىْ أَصْبَحْتُ مِنْكَ فِىْ مِنْ نِعْمَةٍ وَعَافِيَةٍ وَسِتْرٍ فَأَتِمَّ عَلَىَّ نِعْمَتَكَ وَعَافِيَتَكَ وَسِتْرَكَ فِىْ الدِّيْنِ وَالدُّنْيَا وَالْأَخِرَة.",
-        "اَللَّهُمَّ مَا أَصْبَح بِى مِنْ نِعْمَتٍ أَوْبِأَحَدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لَاشَرِيْكَ لَكَ فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ.",
+                "قُلْ اَعُوْذُ بِرَبِّ النَّاسِۙ * مَلِكِ النَّاسِۙ * اِلٰهِ النَّاسِۙ * مِنْ شَرِّ الْوَسْوَاسِ ەۙ الْخَنَّاسِۖ * الَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِۙ * مِنَ الْجِنَّةِ وَالنَّاسِ",
+        "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ وَلْحَمْدُ لِلهِ لَا شَرِيْكَ لَهُ لَا إِلَهَ إِلَّاهُوَ وَإِلَيْهِ النُّشُوْرُ.",
+        "أَمْسَيْنَا عَلَى فِطْرَةِ الْإِسْلَامْ وَكَلِمَةِ الْإخْلَاصْ وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّ اللهُ عَلَيْهِ وَسَلَّمَ وَعَلَى مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ حَنِيْفًا وَمَاكَانَ مِنَ الْمُشْرِكِيْنَ.",
+        "أَللَّهُمَّ إِنِّىْ أَمْسَيتُ مِنْكَ فِىْ مِنْ نِعْمَةٍ وَعَافِيَةٍ وَسِتْرٍ فَأَتِمَّ عَلَىَّ نِعْمَتَكَ وَعَافِيَتَكَ وَسِتْرَكَ فِىْ الدِّيْنِ وَالدُّنْيَا وَالْأَخِرَة.",
+        "اَللَّهُمَّ مَا أَمْسَ بِى مِنْ نِعْمَتٍ أَوْبِأَحَدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لَاشَرِيْكَ لَكَ فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ.",
         "يَارَبِّىْ لَكَ الْحَمْدُ كَمَا يَنْبَغِىْ لِجَلَالِ وَجْهِكَ الْكَرِيْمِ وَعَظِيْمِ سُلْطَانِكَ.",
         "رَضِيْتُ بِاللهِ رَبًّا وَبِالْإِسْلَامِ دِيْنًا وَبِامُحَمَّدٍ نَبِيًّا وَرَسُوْلًا.",
         "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ عَدَدَ خَلْقِهِ وَرِضَا نَفْسِهِ وَزِنَةَ عَرْشِهِ وَمِدَادَ كَلِمَاتِهِ.",
@@ -74,11 +75,11 @@ object DataPagiSughro {
         "سُبْحَانَكَ الّلهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ أَسْتَغْفِرُكَ وَأَتُوْبُ إِلَيْكَ.",
         "اَللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَبْدِكَ وَرَسُوْلِكَ النَّبِيِّ الأُمِّيِّ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمْ تَسْلِيْمًا عَدَدَ مَا أَحَاطَ بِهِ عِلْمُكَ وَخَطَّ بِهِ قَلَمُكَ وَأَحْصَاهُ كِتَابُكَ، وَارْضَ اللَّهُمَّ عَنْ سَادَاتِنَا أَبِيْ بَكْرٍ وَعُمَرَ وَعُثْمَانَ وَعَلِيْ، وَعَنِ الصَّحَابَةِ أَجْمَعِيْنَ، وَعَنِ التَّابِعِيْنَ وَتَابِعِيْهِمْ بِإِحْسَانٍ إِلَى يَوْمِ الدِّيْن سُبْحَانَ رَبِّك رَبِّ العِزَّةِ عَمَّا يَصِفُوْنَ، وَسَلَامٌ عَلَى المُرْسَلِيْنَ، وَالحَمْدُ لِلَّهِ رَبِّ  العَالَمِيْنَ.",
         "قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَنْ تَشَاءُ وَتَنْزِعُ الْمُلْكَ مِمَّنْ تَسَاءَ وَتُعِزُّ مَنْ تَشَاءَ وَتُذِلُّ مَنْ تَشَاءَ بِيَدِكَ الْخَيْرُ إِنَّكَ عَلَىَ كُلِّ شَيْءٍ قَدِيْرٌ. تُوْلِجُ الَّيْلَ فِي النَّهَارِ وَتُوْلِجُ النَّهَارَ فِيْ الَّيْلِ وَتُحْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَتُحْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَتَرْزُقُ مَنْ تَشَاء بِغَيْرِ حِسَابٍ.",
-        "اَلَّلهُمَّ إِنَّ هَذَا إِقْبَالُ نَهَارِكَ وَإِدْبَارُ لَيْلِكَ وَأَصْوَاةُ دُعَاتِكَ فَغْفِرْلِى.",
+        "اَلَّلهُمَّ إِنَّ هَذَا إِقْبَالُ لَيْلِكَ وَإِدْبَارُ نَهَارِكَ وَأَصْوَاةُ دُعَاتِكَ فَغْفِرْلِى.",
         "اَللّهُمَّ إِنَّكَ تَعْلَمُ أَنَّ هَذِهِ الْقُلُوْبَ، قَدِ اجْتَمَعَتْ عَلَى مَحَبَّتِكَ وَالْتَقَتْ عَلَى طَاعَتِكَ، وَتَوَحَّدَتْ عَلَى دَعْوَتِكَ وَتَعَاهَدَتْ عَلَى نُصْرَةِ شَرِيْعَتِكَ فَوَثِّقِ اللَّهُمَّ رَابِطَتَهَا، وَأَدِمْ وُدَّهَا، وَاهْدِهَا سُبُلَهَا وَامْلَأَهَا بِنُوْرِكَ الَّذِيْ لاَ يَخْبُوْا وَاشْرَحْ صُدُوْرَهَا بِفَيْضِ الْإِيْمَانِ بِكَ، وَجَمِيْلِ التَّوَكُّلِ عَلَيْكَ وَاَحْيِهَا بِمَعْرِفَتِكَ، وَأَمِتْهَا عَلَى الشَّهَادَةِ فِي سَبِيْلِكَ إِنَّكَ نِعْمَ الْمَوْلَى وَنِعْمَ النَّصِيْرِ. اَللَّهُمَّ أَمِيْنَ. وَصَلِّ اللَّهُمَّ عَلَى سَيِّدَنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمَ."
     )
 
-    private val txtLatinPagiSughro = arrayOf(
+    private val txtLatinSenjaSughro = arrayOf(
         //Demo Latin
         "A'uudzu billahissami'il 'aliimi minasy-syaithoonirrojiim",
         "Bismillāhir-raḥmānir-raḥīm * Al-ḥamdu lillāhi rabbil-'ālamīn * Ar-raḥmānir-raḥīm * māliki yaumid-dīn * Iyyāka na'budu wa iyyāka nasta'īn * Ihdinaṣ-ṣirāṭal-mustaqīm * Shirāṭallażīna an'amta 'alaihim gairil-magḍụbi 'alaihim wa laḍ-ḍāllīn.",
@@ -113,7 +114,7 @@ object DataPagiSughro {
         "Allohumma innaka ta’lamu anna haadzihil quluub, qodijtama’at ‘alaa mahabbatik, wal taqot ‘alaa thoo’atik, wa tawahhadat ‘alaaa da’watik, wa ta’aahadat ‘alaa nashroti syarii’atik, fawats-tsiqillaahumma roobithotahaa, wa- adim wuddahaa, wahdihaa subulahaa, wamla’haa binuurikal ladzii laa yakhbuu, wasyroh shuduurikal ladzii laa yakhbuu, wasyroh shuduurohaa, bifaidhil iimaanibik, wa jamiilit-tawakkuli ‘alaik, wa ahyihaa bima’rifathik, wa amit-haa ‘alasy-syahadaati fii sabiilik, innaka ni’mal maula wa ni’man-nashiir. Aamiin. Alloohumma aamiin. Wa shollillaahumma ‘alaa sayyidina muhammadin wa ‘alaa aalihi wa shohbihi wa sallam."
     )
 
-    private val txtDescPagiSughro = arrayOf(
+    private val txtDescSenjaSughro = arrayOf(
         //Demo Terjemahan
         "Aku berlindung kepada Allah yang maha mendengar lagi maha mengetahui, dari godaan setan yang terkutuk.",
         "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang. ** Segala puji bagi Allah, Tuhan seluruh alam. ** Yang Maha Pengasih, Maha Penyayang. ** Pemilik hari pembalasan. ** Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan. ** Tunjukilah kami jalan yang lurus, ** (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat.",
@@ -151,12 +152,12 @@ object DataPagiSughro {
     val listData: ArrayList<ModelDzikir>
         get() {
             val list = arrayListOf<ModelDzikir>()
-            for (position in txtTitlePagiSughro.indices) {
+            for (position in txtTitleSenjaSughro.indices) {
                 val dzikir = ModelDzikir()
-                dzikir.title = txtTitlePagiSughro[position]
-                dzikir.arabic = txtArabicPagiSughro[position]
-                dzikir.latin = txtLatinPagiSughro[position]
-                dzikir.desc = txtDescPagiSughro[position]
+                dzikir.title = txtTitleSenjaSughro[position]
+                dzikir.arabic = txtArabicSenjaSughro[position]
+                dzikir.latin = txtLatinSenjaSughro[position]
+                dzikir.desc = txtDescSenjaSughro[position]
                 list.add(dzikir)
             }
             return list

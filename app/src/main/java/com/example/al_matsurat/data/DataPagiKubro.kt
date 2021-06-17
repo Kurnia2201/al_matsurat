@@ -2,8 +2,8 @@ package com.example.al_matsurat.data
 
 import com.example.al_matsurat.model.ModelDzikir
 
-object DataPagiSughro {
-    private val txtTitlePagiSughro = arrayOf(
+object DataPagiKubro {
+    private val txtTitlePagiKubro = arrayOf(
         //Demo Title
         "Ta'awudz",
         "QS. Al-Fatihah",
@@ -38,7 +38,7 @@ object DataPagiSughro {
         "Do’a Robithoh"
     )
 
-    private val txtArabicPagiSughro = arrayOf(
+    private val txtArabicPagiKubro = arrayOf(
         //Demo Ayat
         "أَعُوْذُ بِاللّٰهِ السَّمِيْعِ العَلِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْم",
         "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ\n" +
@@ -78,7 +78,7 @@ object DataPagiSughro {
         "اَللّهُمَّ إِنَّكَ تَعْلَمُ أَنَّ هَذِهِ الْقُلُوْبَ، قَدِ اجْتَمَعَتْ عَلَى مَحَبَّتِكَ وَالْتَقَتْ عَلَى طَاعَتِكَ، وَتَوَحَّدَتْ عَلَى دَعْوَتِكَ وَتَعَاهَدَتْ عَلَى نُصْرَةِ شَرِيْعَتِكَ فَوَثِّقِ اللَّهُمَّ رَابِطَتَهَا، وَأَدِمْ وُدَّهَا، وَاهْدِهَا سُبُلَهَا وَامْلَأَهَا بِنُوْرِكَ الَّذِيْ لاَ يَخْبُوْا وَاشْرَحْ صُدُوْرَهَا بِفَيْضِ الْإِيْمَانِ بِكَ، وَجَمِيْلِ التَّوَكُّلِ عَلَيْكَ وَاَحْيِهَا بِمَعْرِفَتِكَ، وَأَمِتْهَا عَلَى الشَّهَادَةِ فِي سَبِيْلِكَ إِنَّكَ نِعْمَ الْمَوْلَى وَنِعْمَ النَّصِيْرِ. اَللَّهُمَّ أَمِيْنَ. وَصَلِّ اللَّهُمَّ عَلَى سَيِّدَنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمَ."
     )
 
-    private val txtLatinPagiSughro = arrayOf(
+    private val txtLatinPagiKubro = arrayOf(
         //Demo Latin
         "A'uudzu billahissami'il 'aliimi minasy-syaithoonirrojiim",
         "Bismillāhir-raḥmānir-raḥīm * Al-ḥamdu lillāhi rabbil-'ālamīn * Ar-raḥmānir-raḥīm * māliki yaumid-dīn * Iyyāka na'budu wa iyyāka nasta'īn * Ihdinaṣ-ṣirāṭal-mustaqīm * Shirāṭallażīna an'amta 'alaihim gairil-magḍụbi 'alaihim wa laḍ-ḍāllīn.",
@@ -113,7 +113,7 @@ object DataPagiSughro {
         "Allohumma innaka ta’lamu anna haadzihil quluub, qodijtama’at ‘alaa mahabbatik, wal taqot ‘alaa thoo’atik, wa tawahhadat ‘alaaa da’watik, wa ta’aahadat ‘alaa nashroti syarii’atik, fawats-tsiqillaahumma roobithotahaa, wa- adim wuddahaa, wahdihaa subulahaa, wamla’haa binuurikal ladzii laa yakhbuu, wasyroh shuduurikal ladzii laa yakhbuu, wasyroh shuduurohaa, bifaidhil iimaanibik, wa jamiilit-tawakkuli ‘alaik, wa ahyihaa bima’rifathik, wa amit-haa ‘alasy-syahadaati fii sabiilik, innaka ni’mal maula wa ni’man-nashiir. Aamiin. Alloohumma aamiin. Wa shollillaahumma ‘alaa sayyidina muhammadin wa ‘alaa aalihi wa shohbihi wa sallam."
     )
 
-    private val txtDescPagiSughro = arrayOf(
+    private val txtDescPagiKubro = arrayOf(
         //Demo Terjemahan
         "Aku berlindung kepada Allah yang maha mendengar lagi maha mengetahui, dari godaan setan yang terkutuk.",
         "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang. ** Segala puji bagi Allah, Tuhan seluruh alam. ** Yang Maha Pengasih, Maha Penyayang. ** Pemilik hari pembalasan. ** Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan. ** Tunjukilah kami jalan yang lurus, ** (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat.",
@@ -151,12 +151,12 @@ object DataPagiSughro {
     val listData: ArrayList<ModelDzikir>
         get() {
             val list = arrayListOf<ModelDzikir>()
-            for (position in txtTitlePagiSughro.indices) {
+            for (position in txtTitlePagiKubro.indices) {
                 val dzikir = ModelDzikir()
-                dzikir.title = txtTitlePagiSughro[position]
-                dzikir.arabic = txtArabicPagiSughro[position]
-                dzikir.latin = txtLatinPagiSughro[position]
-                dzikir.desc = txtDescPagiSughro[position]
+                dzikir.title = txtTitlePagiKubro[position]
+                dzikir.arabic = txtArabicPagiKubro[position]
+                dzikir.latin = txtLatinPagiKubro[position]
+                dzikir.desc = txtDescPagiKubro[position]
                 list.add(dzikir)
             }
             return list
