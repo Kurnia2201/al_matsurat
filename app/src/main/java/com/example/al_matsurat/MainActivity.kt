@@ -15,25 +15,25 @@ class MainActivity : AppCompatActivity() {
         card_zipasu.setOnClickListener {
             startActivity(Intent(this, ZipasuActivity::class.java))
 
-            Toast.makeText(this, "Zikir Pagi Sughro", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Dzikir Pagi Sughro", Toast.LENGTH_SHORT).show()
         }
 
         card_zisensu.setOnClickListener {
             startActivity(Intent(this, ZisensuActivity::class.java))
 
-            Toast.makeText(this, "Zikir Petang Sughro", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Dzikir Petang Sughro", Toast.LENGTH_SHORT).show()
         }
 
         card_zipaku.setOnClickListener {
             startActivity(Intent(this, ZipakuActivity::class.java))
 
-            Toast.makeText(this, "Zikir Pagi Kubro", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Dzikir Pagi Kubro", Toast.LENGTH_SHORT).show()
         }
 
         card_zisenku.setOnClickListener {
             startActivity(Intent(this, ZisenkuActivity::class.java))
 
-            Toast.makeText(this, "Zikir Petang Kubro", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Dzikir Petang Kubro", Toast.LENGTH_SHORT).show()
         }
 
     }

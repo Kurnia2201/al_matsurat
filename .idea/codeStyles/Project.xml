@@ -1,6 +1,7 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
     <JetCodeStyleSettings>
+<<<<<<< HEAD
       <option name="PACKAGES_TO_USE_STAR_IMPORTS">
         <value>
           <package name="java.util" withSubpackages="false" static="false" />
@@ -8,6 +9,8 @@
           <package name="io.ktor" withSubpackages="true" static="false" />
         </value>
       </option>
+=======
+>>>>>>> c9c367b88d4e403d201eb7ce5b432809ec2c82cc
       <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
     </JetCodeStyleSettings>
     <codeStyleSettings language="XML">

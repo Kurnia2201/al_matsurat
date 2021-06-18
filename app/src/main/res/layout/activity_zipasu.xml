@@ -8,12 +8,12 @@
     tools:context=".ZipasuActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:scrollbars="vertical"
         android:text="Al-Ma'tsurat"
-        android:textColor="@color/black"
+        android:textColor="@color/primaryDark"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/scrollView"
